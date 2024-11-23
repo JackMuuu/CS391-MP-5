@@ -9,7 +9,7 @@ export default function HomePage() {
     <Container maxWidth="sm">
       <Box sx={{ my: 5 }}>
         <Typography variant="h3" component="h1" gutterBottom align="center">
-          Yuanman's URL Shortener
+          Yuanman&apos;s URL Shortener
         </Typography>
         <UrlEntry />
       </Box>
