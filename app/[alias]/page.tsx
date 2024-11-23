@@ -6,7 +6,7 @@ interface Params {
   alias: string;
 }
 
-export default async function AliasPage({ params }: { params: Params }) {
+export default async function AliasPage({ params }: { params: Promise<Params> }) {
   const { alias } = await params;
 
   let urlEntry;
